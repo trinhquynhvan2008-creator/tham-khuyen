@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>CV Cá Nhân</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: "Segoe UI", sans-serif;
+            background-color: #f4f6f8;
+        }
+
+        .cv {
+            max-width: 900px;
+            margin: 40px auto;
+            background: white;
+            display: grid;
+            grid-template-columns: 300px 1fr;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        /* Cột trái */
+        .left {
+            background: #2c3e50;
+            color: white;
+            padding: 30px;
+        }
+
+        .avatar {
+            text-align: center;
+        }
+
+        .avatar img {
+            width: 140px;
+            border-radius: 50%;
+            border: 4px solid white;
+        }
+
+        .left h2 {
+            margin-top: 30px;
+            border-bottom: 1px solid #7f8c8d;
+            padding-bottom: 5px;
+        }
+
+        .left p, .left li {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+
+        /* Cột phải */
+        .right {
+            padding: 40px;
+        }
+
+        .right h1 {
+            margin-top: 0;
+            color: #2c3e50;
+        }
+
+        .right h3 {
+            color: #2980b9;
+            margin-bottom: 5px;
+        }
+
+        .section {
+            margin-bottom: 25px;
+        }
+
+        .section p {
+            color: #444;
+            line-height: 1.6;
+        }
+
+        .skill {
+            background: #ecf0f1;
+            padding: 8px 12px;
+            display: inline-block;
+            margin: 5px;
+            border-radius: 20px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="cv">
+    <!-- CỘT TRÁI -->
+    <div class="left">
+        <div class="avatar">
+            <img src="https://via.placeholder.com/150" alt="Avatar">
+        </div>
+
+        <h2>Liên hệ</h2>
+        <p>Email: ngkhuyn22@gmail.com</p>
+        
+
+        <h2>Sở thích</h2>
+        <ul>
+            <li>Học Toán – Vật lí</li>
+            <li>Lập trình</li>
+            <li>Xem phim, nghe nhạc</li>
+        </ul>
+    </div>
+
+    <!-- CỘT PHẢI -->
+    <div class="right">
+        <h1>Nguyễn Thẩm Khuyên</h1>
+        <p><b>Học sinh THPT | Định hướng Khoa học – Kinh tế</b></p>
+
+        <div class="section">
+            <h3>Giới thiệu bản thân</h3>
+            <p>
+                Tôi là học sinh yêu thích các môn khoa học tự nhiên,
+                đặc biệt là Vật lí và Toán. Tôi đang học lập trình cơ bản
+                và mong muốn phát triển tư duy logic, sáng tạo thông qua công nghệ.
+            </p>
+        </div>
+
+        <div class="section">
+            <h3>Học tập</h3>
+            <p>
+                • Trường: THPT Dương Xá<br>
+                • Môn yêu thích: Toán, Vật lí, Hóa Học <br>
+                • Định hướng: Kinh tế / Công nghệ
+            </p>
+        </div>
+
+        <div class="section">
+            <h3>Kỹ năng</h3>
+         
+            <span class="skill">Giải bài tập Vật lí</span>
+            <span class="skill">Tư duy logic</span>
+        </div>
+
+        <div class="section">
+            <h3>Mục tiêu</h3>
+            <p>
+                Nâng cao kiến thức khoa học, rèn luyện kỹ năng 
+                và chuẩn bị cho các kỳ thi quan trọng trong tương lai.
+            </p>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
